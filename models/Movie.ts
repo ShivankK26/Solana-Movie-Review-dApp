@@ -30,4 +30,19 @@ export class Movie {
         this.borshInstructionSchema.encode({ ...this, variant: 0 }, buffer)
         return buffer.slice(0, this.borshInstructionSchema.getSpan(buffer))
     }
+
+    // deserializing code
+    // static deserialize(buffer?: Buffer): Movie|null {
+    //     if (!buffer) {
+    //         return null
+    //     }
+
+    //     try {
+    //         const { title, rating, description } = this.borshAccountSchema.decode(buffer)
+    //         return new Movie(title, rating, description)
+    //     } catch(e) {
+    //         console.log('Deserialization error:', e)
+    //         return null
+    //     }
+    // }
 }
