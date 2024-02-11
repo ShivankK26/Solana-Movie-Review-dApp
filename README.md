@@ -1,40 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Solana Movie Review DApp
+
+Welcome to the Solana Movie Review DApp repository! This decentralized application allows users to sign in via their Phantom wallet and leave reviews for movies. Built on the Solana blockchain, this DApp provides a decentralized platform for movie enthusiasts to share their opinions and recommendations.
+
+## Features
+
+- **Decentralized Identity**: Users can sign in securely using their Phantom wallet, ensuring a decentralized identity management system.
+- **Movie Reviews**: Users can submit reviews for their favorite movies, including ratings and comments.
+- **Immutable Reviews**: Once submitted, reviews are stored on the Solana blockchain, ensuring transparency and immutability.
+- **User-Friendly Interface**: The DApp provides an intuitive and user-friendly interface for seamless navigation and review submission.
+
+## Technologies Used
+
+- **Solana**: The blockchain platform used to build the decentralized application.
+- **Phantom Wallet**: A popular Solana wallet extension that enables secure wallet interactions.
+- **React**: A JavaScript library for building user interfaces.
+- **Web3.js**: A library that interacts with the Solana blockchain, enabling integration with Phantom wallet and smart contracts.
+- **Borsh**: A serialization library for Rust, used for serializing and deserializing data structures on Solana.
 
 ## Getting Started
 
-First, run the development server:
+To run the Solana Movie Review DApp locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/ShivankK26/Solana-Movie-Review-dApp.git
+   ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+   ```
+   cd solana-movie-review-dapp
+   npm install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. Start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```
+   npm run dev
+   ```
 
-## Learn More
+4. Open your web browser and navigate to `http://localhost:3000` to access the DApp.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions from the community to enhance the Solana Movie Review DApp. If you'd like to contribute, please follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to your branch: `git push origin feature-name`.
+5. Submit a pull request with a description of your changes.
